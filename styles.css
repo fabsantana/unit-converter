@@ -37,7 +37,6 @@ and (min-width : 451px) {
 
 .converter-container {
     text-align: center;
-    width: 550px;
     position: absolute;
     left: 50%;
     top: 50%;
