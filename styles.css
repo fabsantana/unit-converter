@@ -23,13 +23,13 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 @media only screen 
-and (max-width : 450px) {
+and (max-width : 549px) {
     .converter-container {
         width: 100%;
     }
 }
 @media only screen 
-and (min-width : 451px) {
+and (min-width : 550px) {
     .converter-container {
         width: 550px;
     }
