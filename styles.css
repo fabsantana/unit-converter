@@ -22,6 +22,18 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+@media only screen 
+and (max-width : 450px) {
+    .converter-container {
+        width: 100%;
+    }
+}
+@media only screen 
+and (min-width : 451px) {
+    .converter-container {
+        width: 550px;
+    }
+}
 
 .converter-container {
     text-align: center;
