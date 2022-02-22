@@ -62,7 +62,7 @@ and (min-width : 451px) {
 .unit-input-section > input {
     font-size: 97.5px;
     line-height: 24.39px;  
-    width: 400px;
+    width: 70%;
     font-weight: 800;
     color: #ffffff;
     text-align: center;
