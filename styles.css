@@ -27,11 +27,18 @@ and (max-width : 549px) {
     .converter-container {
         width: 100%;
     }
+
+    .unit-input-section > input {
+        font-size: 75px;
+    }
 }
 @media only screen 
 and (min-width : 550px) {
     .converter-container {
         width: 550px;
+    }
+    .unit-input-section > input {
+        font-size: 97.5px;
     }
 }
 
@@ -60,7 +67,6 @@ and (min-width : 550px) {
     font-size: 22px;
 }
 .unit-input-section > input {
-    font-size: 97.5px;
     line-height: 24.39px;  
     width: 100%;
     font-weight: 800;
