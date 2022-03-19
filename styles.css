@@ -25,7 +25,7 @@ input[type=number] {
 @media only screen 
 and (max-width : 549px) {
     .converter-container {
-        width: 100%;
+        min-width: 370px;
     }
 
     .unit-input-section > input {
@@ -35,7 +35,7 @@ and (max-width : 549px) {
 @media only screen 
 and (min-width : 550px) {
     .converter-container {
-        width: 550px;
+        max-width: 550px;
     }
     .unit-input-section > input {
         font-size: 97.5px;
