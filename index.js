@@ -16,3 +16,9 @@ function convert () {
     document.getElementById("mass-unit").textContent = conversionNumber + " kilos = " + metricToImperialMass.toFixed(3) + " pounds | " + conversionNumber + " pounds = " + ImperialToMetricMass.toFixed(3) + " kilos";
 
 }
+
+document.getElementById("conversion-input").oninput = function limitCharacters() {
+    if (this.value.length > 7) {
+        this.value = this.value.slice(0,7)
+    }
+}
