@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
+    height: 100%;
 }
 
 body {
@@ -44,11 +45,6 @@ and (min-width : 550px) {
 
 .converter-container {
     text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 }
 
 
