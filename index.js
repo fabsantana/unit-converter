@@ -18,7 +18,7 @@ function convert () {
 }
 
 document.getElementById("conversion-input").oninput = function limitCharacters() {
-    if (this.value.length > 7) {
-        this.value = this.value.slice(0,7)
+    if (this.value.length > 6) {
+        this.value = this.value.slice(0,6)
     }
 }
