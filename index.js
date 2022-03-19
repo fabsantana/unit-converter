@@ -1,3 +1,8 @@
+document.getElementById("conversion-input").oninput = function limitCharacters() {
+    if (this.value.length > 6) {
+        this.value = this.value.slice(0,6)
+    }
+}
 
 function convert () {
     let conversionNumber = document.getElementById('conversion-input').value;
@@ -15,10 +20,4 @@ function convert () {
 
     document.getElementById("mass-unit").textContent = conversionNumber + " kilos = " + metricToImperialMass.toFixed(3) + " pounds | " + conversionNumber + " pounds = " + ImperialToMetricMass.toFixed(3) + " kilos";
 
-}
-
-document.getElementById("conversion-input").oninput = function limitCharacters() {
-    if (this.value.length > 6) {
-        this.value = this.value.slice(0,6)
-    }
 }
